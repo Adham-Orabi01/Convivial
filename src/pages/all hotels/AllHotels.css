@@ -1,0 +1,132 @@
+/* FilterBar styles */
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.filter-item {
+  padding: 12px 20px;
+  background: #fff;
+  border: 1px solid #dedede;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.filter-item span {
+  display: flex;
+  align-items: center;
+}
+
+.filter-icon {
+  color: #5e6d77;
+  margin-left: 5px;
+}
+
+/* Dropdown menu */
+.filter-options {
+  width: 300px;
+  z-index: 2;
+  position: absolute;
+  top: 60px;
+  background-color: #fff;
+  color: #777;
+  border: 1px solid #dedede;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  cursor: auto;
+}
+
+.filter-option {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #5e6d77;
+}
+.filter-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.filter-option input {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border-color: #0071c2;
+  cursor: pointer;
+}
+
+.price-filter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.price-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.price-input {
+  padding: 4px 12px;
+  background: #fff;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #5e6d77;
+  width: 44%;
+}
+
+.price-slider {
+  width: 100%;
+}
+
+.price-range-labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.allhotels-heading {
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #5e6d77;
+}
+
+.allhotels-items {
+  margin: 40px 180px -60px 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.allhotels-icons {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  color: #0071c2;
+  cursor: pointer;
+}
